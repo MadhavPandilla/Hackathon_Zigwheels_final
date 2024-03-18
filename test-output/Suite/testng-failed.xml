@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <classes>
+      <class name="com.zigwheels.TestNG.TestNG">
+        <methods>
+          <include name="quit"/>
+          <include name="entering_invalid_email_account"/>
+          <include name="clicking_upcoming_bikes"/>
+          <include name="clicking_chennai"/>
+          <include name="displaying_error_message"/>
+          <include name="clicking_signin"/>
+          <include name="displaying_all_popular_models"/>
+          <include name="selecting_manufacture_honda"/>
+          <include name="displaying_bikes_price_less_than_4lakhs"/>
+          <include name="hovering_over_used_cars"/>
+          <include name="navigating_back_to_homepage"/>
+        </methods>
+      </class> <!-- com.zigwheels.TestNG.TestNG -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
